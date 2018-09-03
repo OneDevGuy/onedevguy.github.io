@@ -1,116 +1,123 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <style>
-          body {
-            /* background-color: #282e37; */
-            background: url('wbg.png');no-repeat center center fixed;
-            height: 300px;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            }
+    <style>
+      body {
+        /* background-color: #282e37; */
+        background: url('wbg.png');no-repeat center center fixed;
+        height: 300px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
 
-            h1 {
-                color: white;
-                font-family: 'Helvetica Neue', Helvetica;
-                font-weight: 100;
-                font-size: 70px;
-                margin: 0px;
-            }
+      h1 {
+        color: white;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-weight: 100;
+        font-size: 70px;
+        margin: 0px;
+      }
 
-            p {
-              color: white;
-              font-family: 'Helvetica Neue', Helvetica;
-              font-weight: 200;
-              font-size: 30px;
-            }
+      p {
+        color: white;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-weight: 200;
+        font-size: 30px;
+      }
 
-            h2 {
-              color: white;
-              font-family: 'Helvetica Neue', Helvetica;
-              font-weight: 200;
-            }
-            img {
-              border-radius: 8px;
-              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            } 
-            
-            .box {
-              background-color: #69696bf0;
-              /* background-color: #40404cad */
-              padding: 20px;
-              width: 400px;
-              margin: 100px auto;
-              text-align: center;            
-              /* font-size: 16px; */
-              box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1.0), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
-              border-radius: 10px;
-            }
-             .box-p {
-              background-color: #69696bf0;
-              padding: 60px;;
-              width: 800px;
-              margin: 100px auto;
-              text-align: center;            
-              /* font-size: 16px; */
-              box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1.0), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
-              border-radius: 10px;
-            }
-      </style>             
+      h2 {
+        color: white;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-weight: 200;
+      }
+      img {
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .box {
+        background-color: #69696bf0;
+        padding: 20px;
+        width: 400px;
+        margin: 100px auto;
+        text-align: center;
+        font-size: 16px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1.0), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+      }
+       .box-p {
+        background-color: #69696bf0;
+        padding: 60px;;
+        width: 650px;
+        margin: 100px auto;
+        text-align: center;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1.0), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+      }
+
+      a {
+        color: #69696bf0;
+      }
+      #email {
+        color: white;
+      }
+    </style>
   </head>
-  <body>
-    <div class="box">
-        <h1> Trevor Johnson</h1>
-
-        <p>
-          Software Developer </br>
-          & </br>
-          Blockchain Enthusiast
-        </p>
-        <br />
-        <br />
-        <br />
-         <a href="https://github.com/OneDevGuy">
-            <img src="git.png"/>
-        <a href="https://twitter.com/trevdevs">
-            <img src="twit.png"/>
-        <a href="https://www.linkedin.com/in/trevor-johnson/">
-            <img src="link.png"/>
-      </a>
+<body>
+  <div class="box">
+    <h1> Trevor Johnson</h1>
+    <p>
+      Software Developer </br>
+      & </br>
+      Blockchain Enthusiast <br>
+    </p>
+    <p style="font-size:120%;">
+      Email: <a id="email" href="mailto:webmaster@example.com">devtrev@protonmail.com</a>
+    </p>
+    <br />
+    <br />
+    <a href="https://github.com/OneDevGuy">
+    <img src="git.png"/>
+    <a href="https://twitter.com/trevdevs">
+    <img src="twit.png"/>
+    <a href="https://www.linkedin.com/in/trevor-johnson/">
+    <img src="link.png"/>
+    </a>
     </div>
     <div class="box-p">
-        <h1>Recent Projects</h1>
-        <hr>
-       <p>Crypto Wallet Browser UI<br />
-          <h2>Flask On Raspberry Pi Using Wallet RPC<h2> </p>
-        <a href="http://54.206.121.101:3404/" target="_blank" >
-           <img src="wallet.png">
-         </a>
-          <br />
-          <hr>
-           <p>Pay Bills With Bitcoin <br />
-            <h2>Rails, Bootstrap, PostgreSQL, AWS-S3, RESTful API's</h2>
-          </p>
-        <a href="https://bbp-live.herokuapp.com/" target="_blank" >
-          <img src="bbp.png">
-         </a>
-          <br />
-          <hr>
-           <p>Inventory Managment System <br />
-            <h2>Rails, PostgreSQL, AWS-S3, Carrierwave, Cart, Stock Reports</h2>
-          </p>
-          <img src="inv.png">
-            <br />
-              <hr>
-             <p>Flask-Wallet-RPC Realease 0.1.5 <br />
-                <h2>Python Package for Flask</h2>
-              </p>
-        <a href="https://pypi.org/project/Flask-Wallet-RPC/" target="_blank" >
-          <img src="flask.png">
-        </a>
-          <hr>
+      <h1>Recent Projects</h1>
+      <hr>
+      <p>Crypto Wallet Browser UI<br />
+        <h2 style="font-style: italic;">Flask On Raspberry Pi Using Wallet RPC<h2>
+      </p>
+      <a href="http://54.206.121.101:3404/" target="_blank" >
+      <img src="wallet.png">
+      </a>
+      <br />
+      <hr>
+      <p>Pay Bills With Bitcoin <br />
+        <h2 style="font-style: italic;">Rails, Bootstrap, PostgreSQL, AWS-S3, RESTful API's</h2>
+      </p>
+      <a href="https://bbp-live.herokuapp.com/" target="_blank" >
+      <img src="bbp.png">
+      </a>
+      <br />
+      <hr>
+      <p>Inventory Managment System <br />
+        <h2 style="font-style: italic;">Rails, PostgreSQL, AWS-S3, Carrierwave, Cart, Stock Reports</h2>
+      </p>
+      <img src="inv.png">
+      <br />
+      <hr>
+      <p>Flask-Wallet-RPC Realease 0.1.5 <br />
+        <h2 style="font-style: italic;">Python Package for Flask</h2>
+      </p>
+      <a href="https://pypi.org/project/Flask-Wallet-RPC/" target="_blank" >
+      <img src="flask.png">
+      </a>
+      <hr>
     </div>
   </body>
 </html>
